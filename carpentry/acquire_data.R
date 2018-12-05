@@ -5,7 +5,10 @@ install_github("mnetter589/R4BehavSciPackage")
 library(R4BehavSciPackage)  # contains dataset
 library(readr) # contains write_csv package
 
-#### Read in data from URL ----
+#### View help documentation for custom dataset ----
+?random_student_data
+
+#### Read in data from package ----
 studdata <- R4BehavSciPackage::random_student_data
 
 #### Save cats file as CSV in raw_data folder ----
